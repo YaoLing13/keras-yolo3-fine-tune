@@ -1,0 +1,50 @@
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000027.jpg 174,101,349,351,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000032.jpg 104,78,375,183,0 133,88,197,123,0 195,180,213,229,14 26,189,44,238,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000129.jpg 70,202,255,500,1 251,242,334,500,1 1,144,67,436,1 1,1,66,363,14 74,1,272,462,14 252,19,334,487,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000170.jpg 87,100,109,165,4 41,114,73,181,4 324,148,352,206,4 426,157,443,195,4 3,91,43,206,14 4,28,461,372,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000272.jpg 25,71,304,500,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000323.jpg 277,3,500,375,14 12,3,305,375,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000346.jpg 124,107,230,343,4 137,78,497,375,14 89,202,129,247,14 72,209,111,259,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000364.jpg 54,25,454,315,13 318,37,489,161,13 369,1,458,130,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000392.jpg 100,96,355,324,12 198,58,286,197,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000423.jpg 51,80,122,266,14 367,92,461,315,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000480.jpg 293,162,419,375,14 114,165,228,373,14 5,172,116,373,14 2,68,486,325,0
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000504.jpg 341,102,500,406,9 36,34,79,123,14 2,44,36,120,14 29,42,41,64,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000515.jpg 1,199,40,293,1 1,85,29,279,14 64,164,151,210,6 147,167,186,200,6
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000629.jpg 34,84,500,184,18 87,100,107,124,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000648.jpg 394,199,404,223,14 424,199,436,220,14 434,196,444,220,14 443,195,452,220,14 29,113,353,266,5 328,86,474,192,0 2,213,28,235,6
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000664.jpg 51,2,325,375,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000727.jpg 89,323,273,436,5 272,369,323,388,6 2,380,89,435,6 333,356,358,438,14 319,357,341,424,14 354,363,375,414,14 49,367,90,389,6 113,138,160,164,6
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000733.jpg 48,25,273,383,14 103,201,448,435,13
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000762.jpg 1,189,500,375,10 29,152,118,375,4 382,61,500,261,14 342,142,393,202,14 143,127,266,223,14 199,140,220,187,14 4,22,124,252,14 3,249,174,328,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000783.jpg 201,57,325,259,14 112,100,441,409,12
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000793.jpg 289,100,316,183,14 241,111,270,180,14 218,107,236,178,14 402,67,467,259,14 65,110,84,161,14 96,107,114,159,14 100,78,190,282,14 273,103,295,182,14 151,160,310,280,1 2,80,51,135,5
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000799.jpg 95,23,500,441,12 230,225,500,441,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000807.jpg 34,31,200,500,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000836.jpg 69,99,224,297,14 93,162,226,442,12
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000847.jpg 1,279,208,500,10 61,111,296,500,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000862.jpg 305,131,318,151,14 304,142,354,160,3
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000904.jpg 237,167,338,263,9 17,113,165,238,14 1,213,305,375,12
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_000999.jpg 233,317,289,405,4 2,16,280,500,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001175.jpg 119,153,367,329,14 157,169,256,230,14 360,114,449,187,19
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001185.jpg 197,199,289,323,7 78,78,289,375,14 204,223,500,375,10 452,131,500,253,4
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001284.jpg 135,123,235,375,14 238,115,376,304,14 276,117,426,360,14 301,114,500,375,14 1,114,126,375,14 419,90,448,139,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001311.jpg 465,104,490,166,1 432,118,465,186,1 334,128,380,220,1 177,188,304,319,1 12,161,181,319,1 463,67,495,154,14 431,75,468,171,14 333,79,387,201,14 187,106,291,293,14 27,61,163,280,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001340.jpg 326,284,500,375,11 213,48,406,266,8 150,140,252,375,14 92,111,331,374,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001408.jpg 114,245,178,448,4 56,107,230,387,14 20,68,50,167,4 210,1,333,108,14 84,87,333,366,14 119,1,184,130,15
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001420.jpg 192,109,340,270,12 281,80,364,268,14 436,148,500,306,15
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001423.jpg 124,56,382,333,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001430.jpg 1,269,250,374,10 100,154,235,286,14 211,146,303,352,14 245,154,398,374,14 56,174,100,220,15 316,1,418,66,19 344,83,428,214,15
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001526.jpg 3,18,114,298,14 109,51,214,297,14 212,35,316,297,14 289,33,387,297,14 381,15,500,297,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001558.jpg 1,56,286,329,14 283,15,500,328,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001583.jpg 312,45,412,282,14 70,16,232,375,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001585.jpg 197,115,328,358,14 6,180,425,341,17 58,158,72,191,4
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001586.jpg 28,54,429,329,12 211,40,331,237,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001594.jpg 270,153,334,208,16 231,153,269,209,16 179,149,206,210,16 151,142,180,210,16 206,150,239,212,16 335,93,400,218,14 253,177,302,238,11
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001627.jpg 104,7,280,475,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001630.jpg 26,14,54,114,14 190,27,268,214,14 74,95,200,358,14 155,196,343,500,14 333,32,373,255,14 85,231,200,428,1 149,358,340,500,1
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001667.jpg 251,115,298,217,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001678.jpg 373,102,500,228,19 252,109,349,200,19 107,192,256,333,14 119,62,157,110,14 111,82,145,113,8 164,60,195,84,19
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001686.jpg 112,168,206,500,14
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001709.jpg 367,132,426,287,14 1,1,202,333,14 1,45,412,333,13
+/media/yl/Elements/data/VOCperson/valid/JPEGImages/2007_001717.jpg 1,111,58,169,19 371,160,476,404,14 227,99,365,404,14 146,207,263,366,8
