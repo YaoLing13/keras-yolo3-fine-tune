@@ -1,0 +1,250 @@
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2008_008744.jpg 262,77,401,313,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2008_008745.jpg 384,145,500,260,2 328,272,500,371,2 292,18,405,274,1 213,86,320,246,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2008_008753.jpg 80,1,489,312,2 201,1,368,196,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2008_008755.jpg 116,242,151,346,1 149,229,179,347,1 138,283,170,347,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2008_008757.jpg 266,106,280,148,1 232,106,241,120,1 212,107,226,147,1 167,108,177,126,1 177,113,187,128,1 146,116,164,142,1 140,107,160,211,1 148,116,176,184,1 172,105,225,228,1 229,99,274,202,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2008_008758.jpg 216,218,284,311,2 220,158,283,289,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000010.jpg 157,57,346,267,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000017.jpg 202,100,252,272,1 263,97,323,186,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000021.jpg 39,152,215,308,0 216,172,311,279,0 1,153,47,244,0 260,138,315,295,1 297,165,318,309,1 260,150,280,183,1 207,156,228,213,1 180,150,204,210,1 13,133,35,171,1 32,138,53,195,1 54,149,69,195,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000043.jpg 48,33,410,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000044.jpg 91,69,289,464,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000054.jpg 181,216,206,266,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000056.jpg 317,357,363,482,1 265,371,302,477,1 197,362,235,487,1 246,367,272,441,1 98,391,141,472,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000058.jpg 1,69,73,398,1 27,85,180,334,1 200,70,340,347,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000059.jpg 122,72,357,302,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000060.jpg 479,184,500,233,0 189,107,242,153,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000061.jpg 338,15,500,335,1 1,37,160,319,1 290,35,398,205,1 126,50,241,173,1 299,1,359,159,1 448,1,500,114,1 22,41,39,60,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000063.jpg 1,91,375,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000067.jpg 184,180,220,307,1 225,140,270,308,1 246,187,291,305,1 289,186,325,301,1 333,143,381,304,1 406,183,453,307,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000072.jpg 39,43,170,404,1 143,95,274,446,1 212,48,356,391,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000074.jpg 143,25,334,224,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000078.jpg 95,117,404,225,0 208,123,241,152,1 231,1,261,32,1 193,1,226,32,1 57,1,93,47,1 77,9,115,41,1 5,1,41,50,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000085.jpg 143,183,172,239,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000102.jpg 6,87,40,168,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000119.jpg 245,161,326,313,1 380,173,436,273,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000128.jpg 124,407,183,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000132.jpg 2,1,499,426,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000140.jpg 479,192,489,203,0 464,191,480,205,0 441,192,464,208,0 431,190,440,207,0 289,152,324,192,1 3,201,97,256,0 1,209,23,265,0 151,134,202,185,1 190,141,223,195,1 448,239,476,320,1 474,206,500,324,1 493,191,500,228,1 429,205,439,237,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000141.jpg 322,6,500,278,1 172,41,270,185,1 68,13,167,153,1 21,3,99,132,1 1,3,31,103,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000145.jpg 118,73,241,279,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000149.jpg 241,165,333,291,1 16,158,259,460,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000157.jpg 112,148,247,314,1 105,226,251,400,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000164.jpg 188,166,310,361,1 133,89,351,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000165.jpg 139,139,262,218,0 483,103,500,155,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000168.jpg 82,34,238,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000169.jpg 1,228,55,319,1 383,103,419,188,1 399,40,443,177,1 404,1,446,62,1 239,53,315,79,0 167,60,218,75,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000171.jpg 42,149,311,497,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000179.jpg 29,16,262,332,1 253,29,476,332,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000182.jpg 103,203,375,476,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000183.jpg 1,25,500,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000197.jpg 401,121,423,178,1 418,155,465,171,2 376,162,431,183,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000219.jpg 374,23,500,404,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000223.jpg 37,196,62,243,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000230.jpg 105,154,158,315,1 168,163,215,213,1 154,167,216,342,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000237.jpg 207,202,471,375,2 210,20,386,373,1 85,174,137,272,2 84,115,144,249,1 127,119,157,209,1 131,159,157,228,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000239.jpg 266,138,304,217,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000247.jpg 74,8,250,365,1 264,2,425,171,1 226,1,500,375,1 1,157,116,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000248.jpg 230,42,295,239,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000249.jpg 1,1,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000253.jpg 244,206,347,332,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000257.jpg 223,80,500,179,1 1,61,134,183,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000272.jpg 159,93,286,446,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000277.jpg 119,35,374,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000280.jpg 263,132,347,184,0 126,134,166,179,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000282.jpg 161,123,339,397,1 148,129,176,150,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000283.jpg 1,74,33,100,0 231,107,244,131,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000288.jpg 119,29,390,301,0 403,52,429,119,1 417,58,452,145,1 467,32,500,178,1 1,94,99,132,0 447,65,475,149,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000290.jpg 357,174,366,199,1 368,171,376,197,1 130,181,141,190,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000291.jpg 1,1,456,366,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000301.jpg 321,82,419,375,1 18,16,180,375,1 157,93,300,374,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000305.jpg 211,55,396,258,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000309.jpg 316,78,495,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000322.jpg 54,26,375,426,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000337.jpg 99,226,172,334,1 295,51,466,334,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000340.jpg 16,356,71,500,1 260,332,375,500,1 35,157,326,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000343.jpg 396,100,434,196,1 365,106,395,194,1 391,99,406,118,1 187,116,236,154,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000375.jpg 1,187,178,447,1 230,47,332,452,1 1,144,129,260,1 30,1,159,228,1 150,1,222,192,1 189,1,271,149,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000378.jpg 110,32,232,375,1 233,108,266,145,1 128,105,156,179,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000379.jpg 62,111,430,256,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000397.jpg 172,207,446,290,0 297,220,337,303,1 52,205,71,273,1 75,200,94,276,1 188,191,216,249,1 231,200,250,223,1 91,208,103,274,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000405.jpg 383,1,446,38,0 367,12,435,197,1 438,53,471,278,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000408.jpg 299,127,336,172,1 451,155,468,218,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000411.jpg 229,113,361,375,1 78,195,149,253,1 352,193,417,374,1 138,81,261,374,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000418.jpg 27,130,334,429,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000421.jpg 117,111,153,172,1 300,102,376,185,1 190,104,249,185,1 256,100,297,150,1 274,163,347,201,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000430.jpg 125,1,232,186,1 207,19,297,224,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000436.jpg 9,41,323,388,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000449.jpg 1,1,333,483,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000453.jpg 96,1,500,375,1 349,1,500,285,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000455.jpg 233,207,252,226,1 414,202,424,225,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000456.jpg 1,10,459,325,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000457.jpg 4,144,267,321,2 332,128,500,209,0 58,72,168,296,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000461.jpg 123,22,374,453,1 16,204,444,481,2 375,144,458,176,0 134,147,220,178,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000463.jpg 1,1,273,334,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000464.jpg 195,1,500,375,1 31,263,200,375,1 153,218,187,290,1 95,211,134,276,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000470.jpg 136,144,236,336,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000474.jpg 273,100,484,333,1 86,90,375,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000476.jpg 232,248,251,271,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000496.jpg 262,1,500,344,1 41,1,172,57,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000505.jpg 279,25,477,273,1 158,43,351,256,1 1,119,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000511.jpg 221,1,500,179,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000519.jpg 71,208,80,241,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000522.jpg 90,112,370,228,0 232,127,256,148,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000525.jpg 139,23,349,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000529.jpg 401,1,500,333,1 325,292,431,333,1 223,255,323,333,1 371,176,448,333,1 8,30,168,333,1 134,117,246,333,1 195,214,246,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000539.jpg 128,1,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000542.jpg 72,182,82,212,1 53,200,200,256,0 57,208,392,362,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000544.jpg 40,161,135,400,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000546.jpg 261,61,500,333,1 232,89,357,246,1 2,35,140,333,1 184,84,261,233,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000547.jpg 1,26,264,293,0 334,27,453,312,1 237,54,315,326,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000550.jpg 76,1,371,297,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000552.jpg 28,64,269,410,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000563.jpg 339,17,477,354,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000565.jpg 3,188,82,334,1 237,113,272,234,1 380,123,469,292,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000575.jpg 51,2,159,64,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000577.jpg 236,183,420,367,1 222,118,292,215,1 1,207,60,316,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000582.jpg 247,190,437,312,1 324,150,431,239,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000595.jpg 199,84,361,376,1 344,81,491,377,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000604.jpg 254,114,476,264,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000606.jpg 131,46,304,498,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000615.jpg 8,34,333,482,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000617.jpg 1,135,192,375,1 108,151,216,375,1 345,154,500,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000637.jpg 152,69,294,216,1 53,35,206,246,1 148,371,285,500,1 1,386,104,500,1 332,376,356,429,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000642.jpg 183,45,269,233,1 187,236,216,305,1 251,251,283,300,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000653.jpg 83,1,459,314,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000661.jpg 366,329,454,377,1 164,281,272,377,1 24,319,88,377,1 99,319,153,377,1 146,314,172,377,1 250,324,297,377,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000674.jpg 38,63,331,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000676.jpg 414,1,500,133,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000683.jpg 201,95,435,256,0 323,111,377,151,1 252,114,303,150,1 74,194,141,235,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000686.jpg 35,78,119,146,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000704.jpg 304,32,433,249,1 186,34,333,243,1 85,116,167,209,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000706.jpg 147,54,320,456,1 299,130,332,231,1 231,1,270,78,1 292,113,313,205,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000719.jpg 234,25,347,255,1 144,56,235,173,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000721.jpg 118,60,208,192,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000724.jpg 139,32,297,327,1 122,171,353,375,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000726.jpg 55,89,380,267,0 1,129,102,245,0 430,137,500,227,0 288,101,326,175,1 347,101,382,169,1 5,100,31,137,1 65,105,88,129,1 413,94,447,171,1 440,105,456,165,1 450,100,478,158,1 483,99,500,140,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000727.jpg 228,82,292,188,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000730.jpg 105,53,251,201,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000741.jpg 413,56,500,133,0 6,38,500,375,0 127,91,229,164,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000744.jpg 54,45,244,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000750.jpg 22,2,158,412,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000755.jpg 171,149,327,500,0 80,64,250,417,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000757.jpg 85,49,229,270,1 14,112,263,278,2 49,57,100,146,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000759.jpg 352,110,400,165,1 277,85,350,187,1 327,96,358,166,1 227,69,297,197,1 178,53,296,196,1 97,46,210,234,1 1,27,118,257,1 401,78,497,219,1 401,97,455,201,1 359,65,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000763.jpg 60,83,269,406,1 1,1,317,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000777.jpg 5,32,478,369,0 1,101,83,165,0 66,98,176,172,0 473,119,481,153,1 486,124,500,141,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000781.jpg 241,2,362,212,1 74,1,187,259,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000783.jpg 168,1,311,64,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000815.jpg 133,189,334,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000820.jpg 157,158,372,299,2 163,82,317,277,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000821.jpg 350,3,500,375,1 1,1,500,306,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000825.jpg 265,79,297,124,1 193,95,228,130,1 400,78,422,171,1 294,146,392,303,1 113,168,202,333,1 115,127,386,254,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000827.jpg 1,11,345,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000831.jpg 174,92,319,337,1 25,96,222,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000833.jpg 232,44,478,375,1 56,70,263,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000834.jpg 184,97,316,248,1 450,1,500,207,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000843.jpg 165,1,287,260,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000856.jpg 225,68,305,306,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000858.jpg 365,1,427,147,1 438,1,496,162,1 463,3,500,220,1 227,1,269,74,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000865.jpg 19,36,414,355,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000889.jpg 9,26,460,313,0 74,2,122,92,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000890.jpg 379,110,500,333,1 386,144,410,198,1 407,129,436,164,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000896.jpg 385,92,415,118,1 298,121,313,160,2 114,90,176,256,1 117,166,175,286,2 180,55,303,325,1 173,182,325,375,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000897.jpg 157,48,345,351,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000901.jpg 107,123,198,334,1 254,129,327,333,1 361,155,442,334,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000902.jpg 255,1,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000930.jpg 96,43,334,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000934.jpg 227,153,261,232,1 360,136,416,235,1 108,140,149,226,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000936.jpg 146,67,315,375,1 1,1,238,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000942.jpg 79,71,305,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000960.jpg 256,144,276,169,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000962.jpg 32,65,272,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000969.jpg 14,70,263,384,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000974.jpg 423,270,454,352,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000987.jpg 195,34,319,492,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000990.jpg 229,173,306,244,1 344,186,388,216,1 1,229,36,349,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_000995.jpg 104,196,161,292,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001000.jpg 6,1,54,121,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001002.jpg 1,119,202,375,1 138,35,500,375,1 310,113,500,325,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001011.jpg 89,48,232,211,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001013.jpg 144,24,243,258,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001019.jpg 145,48,182,59,0 325,80,335,91,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001024.jpg 140,107,327,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001026.jpg 240,51,299,144,1 285,85,314,139,1 311,102,344,139,1 334,73,445,334,1 56,49,190,342,1 176,65,309,327,1 474,121,500,145,0 407,125,433,144,0 45,115,78,135,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001030.jpg 263,107,373,370,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001042.jpg 98,182,106,209,1 108,178,130,255,1 137,176,179,294,1 1,184,39,265,1 43,181,59,198,1 38,175,82,310,1 58,187,113,331,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001054.jpg 143,1,375,106,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001068.jpg 93,85,306,482,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001073.jpg 216,175,403,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001083.jpg 129,127,162,163,1 319,163,361,214,0 347,169,379,213,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001084.jpg 82,120,240,422,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001091.jpg 1,128,74,375,1 63,146,126,350,1 120,126,185,344,1 171,122,221,283,1 189,143,251,369,1 188,120,280,306,1 217,123,355,344,1 305,117,378,352,1 370,112,440,363,1 420,113,500,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001096.jpg 11,27,270,371,1 1,200,326,375,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001098.jpg 1,131,65,225,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001103.jpg 137,71,354,331,1 399,180,500,324,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001106.jpg 1,38,329,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001110.jpg 203,1,333,336,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001111.jpg 265,12,416,330,1 459,174,490,264,1 14,157,92,254,1 67,266,158,293,0 178,214,254,330,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001120.jpg 122,14,148,62,1 178,9,196,83,1 154,28,383,375,1 341,1,363,25,1 336,27,355,57,1 384,15,417,232,1 410,1,500,375,1 329,9,413,262,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001121.jpg 262,124,313,173,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001133.jpg 1,93,115,334,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001137.jpg 187,121,355,334,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001140.jpg 178,46,360,204,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001148.jpg 352,130,378,157,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001151.jpg 182,51,358,237,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001154.jpg 2,42,296,411,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001155.jpg 165,5,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001171.jpg 47,44,148,320,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001181.jpg 309,85,431,298,1 280,108,368,332,1 415,225,500,328,2 1,134,45,333,1 20,119,111,333,1 84,106,178,333,1 163,136,181,175,1 134,129,241,333,1 249,266,334,333,1 333,250,437,333,1 410,273,498,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001190.jpg 1,65,436,375,1 196,38,471,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001199.jpg 355,190,384,217,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001207.jpg 175,95,367,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001212.jpg 133,63,311,299,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001215.jpg 1,1,195,60,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001230.jpg 167,168,184,193,1 215,163,234,217,1 256,169,275,226,1 229,167,241,217,1 361,124,371,133,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001237.jpg 419,245,500,320,0 120,191,152,219,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001238.jpg 1,61,181,334,1 147,51,456,334,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001254.jpg 77,18,245,307,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001256.jpg 123,6,493,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001266.jpg 194,110,313,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001282.jpg 394,157,417,189,1 38,203,83,239,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001286.jpg 1,58,240,274,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001299.jpg 37,43,223,307,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001313.jpg 183,132,236,254,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001319.jpg 119,78,216,301,1 15,85,152,318,1 1,94,45,154,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001320.jpg 372,1,500,346,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001326.jpg 39,191,53,232,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001330.jpg 13,14,318,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001339.jpg 219,56,500,284,1 27,11,199,278,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001345.jpg 84,252,113,296,1 55,243,71,292,1 2,240,20,298,1 18,244,40,299,1 46,257,59,290,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001350.jpg 239,415,247,459,1 233,402,242,452,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001354.jpg 28,184,45,225,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001376.jpg 116,107,500,282,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001384.jpg 1,222,283,500,1 39,122,352,500,2
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001389.jpg 5,3,206,333,1 205,23,500,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001395.jpg 114,211,206,325,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001406.jpg 174,190,194,215,1 42,183,56,213,1 16,192,28,209,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001407.jpg 262,325,342,378,1 258,310,313,372,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001409.jpg 267,76,320,146,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001412.jpg 1,174,29,199,0 378,187,404,242,1 361,170,374,187,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001414.jpg 206,1,391,154,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001427.jpg 342,38,459,237,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001433.jpg 185,134,331,367,1 239,138,289,216,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001434.jpg 145,171,181,232,1 162,171,180,200,1 300,154,324,183,1 343,162,369,182,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001437.jpg 294,107,500,333,1 224,143,361,235,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001443.jpg 388,139,464,251,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001447.jpg 20,89,79,224,1 134,144,163,170,1 375,143,394,164,1 243,137,272,183,1 232,122,312,258,1 292,94,414,279,1 41,113,250,375,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001450.jpg 87,26,412,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001454.jpg 17,40,283,325,1 235,146,397,305,1 171,111,240,172,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001463.jpg 333,157,500,333,0 15,85,89,324,1 153,78,228,307,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001468.jpg 277,256,335,437,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001474.jpg 84,53,352,446,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001479.jpg 31,80,324,432,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001508.jpg 31,37,151,203,1 142,45,252,203,1 351,51,486,204,1 251,48,337,153,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001509.jpg 386,34,396,59,1 370,45,379,70,1 324,54,335,83,1 279,64,288,85,1 265,65,274,83,1 86,22,101,65,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001521.jpg 270,169,374,428,1 125,123,284,475,1 1,47,207,500,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001539.jpg 223,73,300,285,1 389,85,441,255,1 129,95,184,155,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001546.jpg 414,283,500,361,0 430,293,449,311,1 304,296,437,357,0 1,216,343,375,0
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001553.jpg 137,100,325,333,1
+/media/yl/Elements/data/VOCperson/train/JPEGImages/2009_001557.jpg 197,135,274,359,1 289,135,364,365,1
