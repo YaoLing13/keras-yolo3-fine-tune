@@ -1,9 +1,13 @@
 import xml.etree.ElementTree as ET
 from os import getcwd
+import argparse
 
 # classes = ["aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
 classes = ["car", "person", "bicycle"]
 
+parser = argparse.ArgumentParser(description='Get file absulte ')
+parser.add_argument('anno_txt', help='Path to src path.')
+parser.add_argument('list_files', help='Path to save file name.')
 
 def convert_annotation(xml_path, list_file):
     in_file = open(xml_path)
@@ -38,6 +42,7 @@ def main(anno_txt, list_files):
 
 
 if __name__ == '__main__':
-    anno_txt = '/home/yl/CNN/Yolo/keras-yolo3-fine-tune/dataset/train.txt'
-    list_files = '/home/yl/CNN/Yolo/keras-yolo3-fine-tune/dataset/train_label.txt'
+    args = parser.parse_args()
+    anno_txt = args.anno_txt
+    list_files = args.list_files
     main(anno_txt, list_files)
