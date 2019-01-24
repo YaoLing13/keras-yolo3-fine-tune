@@ -15,7 +15,7 @@
 		<input_image_width type="int">416</input_image_width>
 		<!--  is_retrain=0, will fine tune the model  -->
 		<!--  is_retrain=1, will retrain the model  -->
-		<is_retrain type="bool">1</is_retrain>
+		<is_retrain type="int">0</is_retrain>
 		<!--  fine tune params  -->
 		<batch_size_stage1 type="int">32</batch_size_stage1>
 		<initial_epochs_stage1 type="int">0</initial_epochs_stage1>

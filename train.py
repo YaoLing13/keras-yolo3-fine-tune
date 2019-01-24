@@ -73,7 +73,7 @@ def _main():
             batch_size_stage1 = int(obj.find('batch_size_stage1').text)
             initial_epochs_stage1 = int(obj.find('initial_epochs_stage1').text)
             epochs_stage1 = int(obj.find('epochs_stage1').text)
-            is_retrain = bool(obj.find('is_retrain').text)
+            is_retrain = int(obj.find('is_retrain').text)
             batch_size_stage2 = int(obj.find('batch_size_stage2').text)
             initial_epochs_stage2 = int(obj.find('initial_epochs_stage2').text)
             epochs_stage2 = int(obj.find('epochs_stage2').text)
