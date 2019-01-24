@@ -4,7 +4,9 @@ Class definition of YOLO_v3 style detection model on image and video
 """
 
 import colorsys
+import xml.etree.ElementTree as ET
 import os
+import argparse
 from timeit import default_timer as timer
 
 import numpy as np
@@ -18,18 +20,56 @@ from yolo3.utils import letterbox_image
 import os
 from keras.utils import multi_gpu_model
 
+parser = argparse.ArgumentParser(description='Get config file path')
+parser.add_argument('config_path', nargs='?', default="config/config.xml", help='Path to src path.')
+
 class YOLO(object):
-    _defaults = {
-        # "model_path": 'model_data/yolo.h5',
-        "model_path": '/home/yl/CNN/Yolo/keras-yolo3-fine-tune/logs/000/yolo3cls.h5',
-        "anchors_path": 'model_data/yolo_anchors.txt',
-        # "classes_path": 'model_data/coco_classes.txt',
-        "classes_path": 'model_data/voc_classes_specific.txt',
-        "score" : 0.3,
-        "iou" : 0.45,
-        "model_image_size" : (416, 416),
-        "gpu_num" : 1,
-    }
+    root_path = os.getcwd()
+    print('#### root_path : %s ####' % root_path)
+    args = parser.parse_args()
+    config_path = args.config_path
+    print('#### config_path: %s ####' % config_path)
+    with open(config_path) as fp:
+        print('-------- Using Config file params --------')
+        tree = ET.parse(fp)
+        root = tree.getroot()
+        for obj in root.iter('test'):
+            model_path = root_path + '/' + obj.find('model_path').text
+            anchors_path = root_path + '/' + obj.find('anchors_path').text
+            classes_path = root_path + '/' + obj.find('classes_path').text
+            print('*****************************************************************************************')
+            print('************** model params **************')
+            print('model_path           : %s' % model_path)
+            print('anchors_path         : %s' % anchors_path)
+            print('classes_path         : %s' % classes_path)
+
+            input_image_height = int(obj.find('input_image_height').text)
+            input_image_width = int(obj.find('input_image_width').text)
+
+            score = float(obj.find('score').text)
+            iou = float(obj.find('iou').text)
+            gpu_num = int(obj.find('gpu_num').text)
+            print('*****************************************************************************************')
+            print('************** test params **************')
+            print('input_image_height   : %d' % input_image_height)
+            print('input_image_width    : %d' % input_image_width)
+            print('-----------------------------------------------')
+            print('score                : %d' % score)
+            print('iou                  : %d' % iou)
+            print('gpu_num              : %d' % gpu_num)
+            print('*****************************************************************************************')
+
+            _defaults = {
+                # "model_path": 'model_data/yolo.h5',
+                "model_path": model_path,
+                "anchors_path": anchors_path,
+                # "classes_path": 'model_data/coco_classes.txt',
+                "classes_path": classes_path,
+                "score" : score,
+                "iou" : iou,
+                "model_image_size" : (input_image_height, input_image_width),
+                "gpu_num" : gpu_num,
+            }
 
     @classmethod
     def get_defaults(cls, n):

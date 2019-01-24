@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<train>
+		<annotation_path type="string">dataset/train_label.txt</annotation_path>
+		<log_dir type="string">logs/000/</log_dir>
+		<classes_path type="string">model_data/voc_classes_specific.txt</classes_path>
+		<anchors_path type="string">model_data/yolo_anchors.txt</anchors_path>
+		<!-- pretrain_model_path: pretrain model name for finetune or retrain  -->
+		<pretrain_model_path type="string">model_data/yolo_weights.h5</pretrain_model_path>
+		<!-- trainging_model_filename: model name when training processor  -->
+		<trainging_model_filename type="string">weights.best.h5</trainging_model_filename>
+		<save_model_stage_name type="string">trained_weights_stage_1.h5</save_model_stage_name>
+		<save_model_final_name type="string">trained_weights_final.h5</save_model_final_name>
+		<input_image_height type="int">416</input_image_height>
+		<input_image_width type="int">416</input_image_width>
+		<!--  is_retrain=0, will fine tune the model  -->
+		<!--  is_retrain=1, will retrain the model  -->
+		<is_retrain type="bool">1</is_retrain>
+		<!--  fine tune params  -->
+		<batch_size_stage1 type="int">32</batch_size_stage1>
+		<initial_epochs_stage1 type="int">0</initial_epochs_stage1>
+		<epochs_stage1 type="int">3</epochs_stage1>
+		<!--  retrain params  -->
+		<batch_size_stage2 type="int">4</batch_size_stage2>
+		<initial_epochs_stage2 type="int">0</initial_epochs_stage2>
+		<epochs_stage2 type="int">10</epochs_stage2>
+	</train>
+
+	<test>
+		<model_path type="string">model_data/yolo.h5</model_path>
+		<anchors_path type="string">model_data/yolo_anchors.txt</anchors_path>
+		<classes_path type="string">model_data/coco_classes.txt</classes_path>
+		<input_image_height type="int">416</input_image_height>
+		<input_image_width type="int">416</input_image_width>
+		<score type="float">0.3</score>
+		<iou type="float">0.45</iou>
+		<gpu_num type="int">1</gpu_num>
+	</test>
+</root>

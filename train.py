@@ -1,7 +1,9 @@
 """
 Retrain the YOLO model for your own dataset.
 """
-
+import xml.etree.ElementTree as ET
+import os
+import argparse
 import numpy as np
 import keras.backend as K
 from keras.layers import Input, Lambda
@@ -12,29 +14,106 @@ from keras.callbacks import TensorBoard, ModelCheckpoint, ReduceLROnPlateau, Ear
 from yolo3.model import preprocess_true_boxes, yolo_body, tiny_yolo_body, yolo_loss
 from yolo3.utils import get_random_data
 
+parser = argparse.ArgumentParser(description='Get config file path')
+parser.add_argument('config_path', nargs='?', default="config/config.xml", help='Path to src path.')
+
 
 def _main():
     annotation_path = 'dataset/train_label.txt'
     log_dir = 'logs/000/'
     classes_path = 'model_data/voc_classes_specific.txt'
     anchors_path = 'model_data/yolo_anchors.txt'
+    pretrain_model_path = 'model_data/yolo_weights.h5'
+    trainging_model_filename = log_dir + "weights.best.h5"  # yl-0124
+    save_model_stage_name = log_dir + 'trained_weights_stage_1.h5'
+    save_model_final_name = log_dir + 'trained_weights_final.h5'
+    input_image_height = 416
+    input_image_width = 416
+    ## train params
+    batch_size_stage1 = 32
+    initial_epochs_stage1 = 0
+    epochs_stage1 = 50
+    batch_size_stage2 = 32
+    initial_epochs_stage2 = epochs_stage1
+    epochs_stage2 = 100
+    is_retrain = False
+
+    root_path = os.getcwd()
+    print('#### root_path : %s ####' % root_path)
+    args = parser.parse_args()
+    config_path = args.config_path
+    print('#### config_path: %s ####' % config_path)
+    with open(config_path) as fp:
+        print('-------- Using Config file params --------')
+        tree = ET.parse(fp)
+        root = tree.getroot()
+        for obj in root.iter('train'):
+            annotation_path = root_path + '/' + obj.find('annotation_path').text
+            log_dir = root_path + '/' + obj.find('log_dir').text
+            classes_path = root_path + '/' + obj.find('classes_path').text
+            anchors_path = root_path + '/' + obj.find('anchors_path').text
+            pretrain_model_path = root_path + '/' + obj.find('pretrain_model_path').text
+            trainging_model_filename = log_dir + obj.find('trainging_model_filename').text
+            save_model_stage_name = log_dir +  obj.find('save_model_stage_name').text
+            save_model_final_name = log_dir +  obj.find('save_model_final_name').text
+            print('*****************************************************************************************')
+            print('**** model params ****')
+            print('annotation_path         : %s' % annotation_path)
+            print('log_dir                 : %s' % log_dir)
+            print('classes_path            : %s' % classes_path)
+            print('anchors_path            : %s' % anchors_path)
+            print('pretrain_model_path     : %s' % pretrain_model_path)
+            print('trainging_model_filename: %s' % trainging_model_filename)
+            print('save_model_stage_name   : %s' % save_model_stage_name)
+            print('save_model_final_name   : %s' % save_model_final_name)
+
+            input_image_height = int(obj.find('input_image_height').text)
+            input_image_width = int(obj.find('input_image_width').text)
+
+            batch_size_stage1 = int(obj.find('batch_size_stage1').text)
+            initial_epochs_stage1 = int(obj.find('initial_epochs_stage1').text)
+            epochs_stage1 = int(obj.find('epochs_stage1').text)
+            is_retrain = bool(obj.find('is_retrain').text)
+            batch_size_stage2 = int(obj.find('batch_size_stage2').text)
+            initial_epochs_stage2 = int(obj.find('initial_epochs_stage2').text)
+            epochs_stage2 = int(obj.find('epochs_stage2').text)
+            print('*****************************************************************************************')
+            print('**** train params ****')
+            print('input_image_height   : %d' %input_image_height)
+            print('input_image_width    : %d' %input_image_width)
+            print('-----------------------------------------------')
+            print('retrain              : %d' %is_retrain)
+            print('-----------------------------------------------')
+            print('batch_size_stage1    : %d' %batch_size_stage1)
+            print('initial_epochs_stage1: %d' %initial_epochs_stage1)
+            print('epochs_stage1        : %d' %epochs_stage1)
+            print('-----------------------------------------------')
+            print('batch_size_stage2    : %d' %batch_size_stage2)
+            print('initial_epochs_stage2: %d' %initial_epochs_stage2)
+            print('epochs_stage2        : %d' %epochs_stage2)
+            print('*****************************************************************************************')
+
     class_names = get_classes(classes_path)
     num_classes = len(class_names)
     anchors = get_anchors(anchors_path)
 
-    input_shape = (416,416) # multiple of 32, hw
+    input_shape = (input_image_height,input_image_width) # multiple of 32, hw
 
     is_tiny_version = len(anchors)==6 # default setting
     if is_tiny_version:
         model = create_tiny_model(input_shape, anchors, num_classes,
-            freeze_body=2, weights_path='model_data/tiny_yolo_weights.h5')
+            # freeze_body=2, weights_path='model_data/tiny_yolo_weights.h5')
+            freeze_body=2, weights_path=pretrain_model_path)
     else:
         model = create_model(input_shape, anchors, num_classes,
-            freeze_body=2, weights_path='model_data/yolo_weights.h5') # make sure you know what you freeze
+            # freeze_body=2, weights_path='model_data/yolo_weights.h5') # make sure you know what you freeze
+            freeze_body=2, weights_path=pretrain_model_path) # make sure you know what you freeze
 
     logging = TensorBoard(log_dir=log_dir)
-    checkpoint = ModelCheckpoint(log_dir + 'ep{epoch:03d}-loss{loss:.3f}-val_loss{val_loss:.3f}.h5',
-        monitor='val_loss', save_weights_only=True, save_best_only=True, period=3)
+    # checkpoint = ModelCheckpoint(log_dir + 'ep{epoch:03d}-loss{loss:.3f}-val_loss{val_loss:.3f}.h5',
+    #     monitor='val_loss', save_weights_only=True, save_best_only=True, period=3)
+    checkpoint = ModelCheckpoint(trainging_model_filename, # yl-0124
+        monitor='val_loss', save_weights_only=True, save_best_only=True, mode='max', period=3) # yl-0124
     reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=3, verbose=1)
     early_stopping = EarlyStopping(monitor='val_loss', min_delta=0, patience=10, verbose=1)
 
@@ -49,40 +128,40 @@ def _main():
 
     # Train with frozen layers first, to get a stable loss.
     # Adjust num epochs to your dataset. This step is enough to obtain a not bad model.
-    if True:
+    if not is_retrain:
         model.compile(optimizer=Adam(lr=1e-3), loss={
             # use custom yolo_loss Lambda layer.
             'yolo_loss': lambda y_true, y_pred: y_pred})
 
-        batch_size = 32
+        batch_size = batch_size_stage1
         print('Train on {} samples, val on {} samples, with batch size {}.'.format(num_train, num_val, batch_size))
         model.fit_generator(data_generator_wrapper(lines[:num_train], batch_size, input_shape, anchors, num_classes),
                 steps_per_epoch=max(1, num_train//batch_size),
                 validation_data=data_generator_wrapper(lines[num_train:], batch_size, input_shape, anchors, num_classes),
                 validation_steps=max(1, num_val//batch_size),
-                epochs=50,
-                initial_epoch=0,
+                epochs=epochs_stage1,
+                initial_epoch=initial_epochs_stage1,
                 callbacks=[logging, checkpoint])
-        model.save_weights(log_dir + 'trained_weights_stage_1.h5')
+        model.save_weights(save_model_stage_name)
 
     # Unfreeze and continue training, to fine-tune.
     # Train longer if the result is not good.
-    if True:
+    if is_retrain:
         for i in range(len(model.layers)):
             model.layers[i].trainable = True
         model.compile(optimizer=Adam(lr=1e-4), loss={'yolo_loss': lambda y_true, y_pred: y_pred}) # recompile to apply the change
         print('Unfreeze all of the layers.')
 
-        batch_size = 32 # note that more GPU memory is required after unfreezing the body
+        batch_size = batch_size_stage2 # note that more GPU memory is required after unfreezing the body
         print('Train on {} samples, val on {} samples, with batch size {}.'.format(num_train, num_val, batch_size))
         model.fit_generator(data_generator_wrapper(lines[:num_train], batch_size, input_shape, anchors, num_classes),
             steps_per_epoch=max(1, num_train//batch_size),
             validation_data=data_generator_wrapper(lines[num_train:], batch_size, input_shape, anchors, num_classes),
             validation_steps=max(1, num_val//batch_size),
-            epochs=100,
-            initial_epoch=50,
+            epochs=epochs_stage2,
+            initial_epoch=initial_epochs_stage2,
             callbacks=[logging, checkpoint, reduce_lr, early_stopping])
-        model.save_weights(log_dir + 'trained_weights_final.h5')
+        model.save_weights(save_model_final_name)
 
     # Further training if needed.
 
